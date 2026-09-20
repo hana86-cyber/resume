@@ -18,3 +18,21 @@ body {
     box-shadow: 0 8px 20px rgba(55, 224, 77, 0.973);
 
   }
+  
+  
+  .pic {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .pic .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(0.75);
+  }
+  
+  @media (min-width: 768px) {
+    .pic .carousel-item img {
+      height: 450px;
+    }
+  }
