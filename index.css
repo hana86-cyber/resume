@@ -1,0 +1,37 @@
+body {
+    font-family: 'Vazirmatn', sans-serif;
+  }
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(255, 34, 218, 0.973);
+  }
+  .navbar .nav-link.active {
+    color: #50b332;
+    font-weight: bold;
+  }
+  .aio-bit:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(55, 224, 77, 0.973);
+
+  }
+  
+  
+  .pic {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .pic .carousel-item img {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  @media (min-width: 768px) {
+    .pic .carousel-item img {
+      height: 450px;
+    }
+  }
